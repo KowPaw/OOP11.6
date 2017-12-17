@@ -1,0 +1,61 @@
+.board {
+	text-align: center;
+	border: 2px solid rgb(46, 204, 113);
+	background: rgb(236, 240, 241);
+}
+
+.column-container {
+	display: flex;
+  	justify-content: center;
+  	padding: 5px;
+  	border-top: 1px solid rgb(46, 204, 113);
+}
+
+.column {
+	display: inline-block;
+	margin: 0 5px;
+	background: rgb(52, 152, 219);
+	width: 32.8vw;
+	min-height: 700px;
+	border: 1px dashed black;
+}
+
+.column ul {
+	border-top: 1px solid black;
+	padding: 10px;
+	height: 500px;
+}
+
+.column ul li {
+	margin-bottom: 10px;
+	list-style-type: none;
+	border: 1px solid black;
+	background: yellow;
+}
+
+.column ul li button {
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+
+button {
+	margin: 10px;
+	background: #5cb85c;
+	border-radius: 5%;
+	width: 100px;
+	height: 40px;
+	border: transparent;
+	cursor: pointer;
+	font-size: 14px;
+	border: 1px solid black;
+}
+
+.create-column {
+	background: #5bc0de;
+	margin-bottom: 20px;
+}
+
+.btn-delete {
+	background: #d9534f;
+}
